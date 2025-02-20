@@ -12,8 +12,8 @@ main proc
     mov ds, ax  ; mode toh data segment
     mov dl, count1 ; load count1 to dl
     add dl, 48 ; convert to ascii sum 48 to dl
-    mov ah, 2h print char
-    int 21h  execute
+    mov ah, 2h ;print char
+    int 21h  ;execute
 
 main endp
 end main
